@@ -36,8 +36,8 @@ console.log(isEvenOrOdd(101));
  
 var wordLengthEvenOrodd = function(word){
     var wordLength = wordLengthEvenOrodd.length;
-    console.log(wordLength);
-    var evenOrOdd = wordLength % 2 == 0 ? "Even" : "Odd"; 
+    // console.log(wordLength);
+    var evenOrOdd = wordLength% 2 == 0 ? "Even" : "Odd"; 
     return evenOrOdd;
 }
 
