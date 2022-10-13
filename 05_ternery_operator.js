@@ -17,3 +17,32 @@ var num2 = temp.length;
 console.log("Total number of word:",num2);
 console.log("Divide length of String to Totle number of word:", num1/num2);
  console.log("ultiplication of length of String to Totle number of word:",num1*num2);
+
+ var greater_number = function(num3,num4){
+ var result =num3 > num4 ? num3 : num4;
+ console.log(result);
+ }
+greater_number(10,-10);
+greater_number(800,899);
+
+var isEvenOrOdd = function(num5){
+    var result = num5%2 == 0 ? true : false;
+    return result;
+}
+console.log(isEvenOrOdd(29));
+console.log(isEvenOrOdd(44));
+console.log(isEvenOrOdd(0));
+console.log(isEvenOrOdd(101));
+ 
+var wordLengthEvenOrodd = function(word){
+    var wordLength = wordLengthEvenOrodd.length;
+    console.log(wordLength);
+    var evenOrOdd = wordLength % 2 == 0 ? "Even" : "Odd"; 
+    return evenOrOdd;
+}
+
+console.log("Word Length javaScript is Even:" , wordLengthEvenOrodd("javaScript"));
+
+console.log("Word Length of Google is Even:" , wordLengthEvenOrodd(`Google`));
+
+console.log("Word Length of Developer is Even:" , wordLengthEvenOrodd(`Developer`));
