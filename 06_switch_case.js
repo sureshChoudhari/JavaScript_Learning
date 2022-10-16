@@ -1,5 +1,5 @@
 
-var dayNumber = 8;
+var dayNumber = 6;
 switch(dayNumber){
 case 1:
     console.log("Monday");
